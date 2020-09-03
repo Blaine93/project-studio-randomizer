@@ -267,4 +267,9 @@ button#add:hover {
     left: auto;
     margin-bottom: 40px;
   }
+
+  #settings p, #count {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
