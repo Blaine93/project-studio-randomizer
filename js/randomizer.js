@@ -78,5 +78,5 @@ chooseButton.addEventListener('click', function() {
 
 cleanButton.addEventListener('click', function() {
   winnersWrapper.innerHTML = '<p>Победители</p>';
-  listWrapper.innerHTML = '<p>Список</p>';
+  listWrapper.innerHTML = '<p>Участники</p>';
 })
