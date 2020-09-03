@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700;900&display=swap" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Randomizer - Project Studio</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="sidebar">
+        <div id="form">
+          <p>Добавить в список</p>
+          <input type="text" placeholder="Название" id="name" />
+          <button type="button" id="add">Добавить</button>
+        </div>
+        <div id="controls">
+          <div id="settings">
+            <p>Количество победителей</p>
+            <div id="count">
+              <button type="button" class="color-control" id="decrease">-</button>
+              <span id="number">1</span>
+              <button type="button" class="color-control" id="increase">+</button>
+            </div>
+          </div>
+          <div id="buttons">
+            <button type="button" id="choose">Разыграть</button>
+            <button type="button" id="clean">Очистить</button>
+          </div>
+        </div>
+      </div>
+      <div id="winners">
+        <p>Победители</p>
+      </div>
+      <div id="list">
+        <p>Список</p>
+      </div>
+    </div>
+    <script src="js/randomizer.js"></script>
+  </body>
+</html>
